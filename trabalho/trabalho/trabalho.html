@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Girl | Loja Feminina</title>
+    <link rel="stylesheet" href="trabalho.CSS">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎀 Pink Girl</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <section class="banner" id="inicio">
+        <h2>Seu momento de brilhar! 💗</h2>
+        <p>Descubra produtos incríveis com preços especiais.</p>
+        <a href="#produtos" class="botao">Ver promoções</a>
+    </section>
+
+    <h2 class="titulo" id="produtos">✨ Ofertas especiais ✨</h2>
+
+    <section class="produtos">
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=500" alt="Look feminino moderno">
+            <h3>Look Fashion</h3>
+            <p>Estilo e elegância para o seu dia.</p>
+            <p class="preco-antigo">R$ 159,90</p>
+            <p class="preco">R$ 119,90</p>
+            <button class="botao" onclick="comprar('Look Fashion')">Quero esse!</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=500" alt="Perfume feminino">
+            <h3>Perfume Chic</h3>
+            <p>Uma fragrância para marcar presença.</p>
+            <p class="preco-antigo">R$ 129,90</p>
+            <p class="preco">R$ 89,90</p>
+            <button class="botao" onclick="comprar('Perfume Chic')">Quero esse!</button>
+        </div>
+
+        <div class="produto">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=500" alt="Produtos de maquiagem">
+            <h3>Kit Beauty</h3>
+            <p>Seus favoritos para completar o visual.</p>
+            <p class="preco-antigo">R$ 99,90</p>
+            <p class="preco">R$ 69,90</p>
+            <button class="botao" onclick="comprar('Kit Beauty')">Quero esse!</button>
+        </div>
+
+    </section>
+
+    <section class="sobre" id="sobre">
+        <h2>💖 Sobre a Pink Girl</h2>
+        <p>A Pink Girl é uma loja feita para quem ama moda, beleza e novidades.</p>
+        <p>Nosso objetivo é deixar suas compras mais especiais, com estilo e ofertas incríveis!</p>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2>📱 Fale com a gente</h2>
+        <p>Gostou de algum produto? Entre em contato!</p>
+        <a class="botao" href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>🎀 Pink Girl © 2026 — Todos os direitos reservados.</p>
+        <p>Feito com 💗 para você!</p>
+    </footer>
+
+    <script>
+        function comprar(produto) {
+            alert("Você escolheu: " + produto + "! Entre em contato para consultar a disponibilidade.");
+        }
+    </script>
+
+</body>
+</html>

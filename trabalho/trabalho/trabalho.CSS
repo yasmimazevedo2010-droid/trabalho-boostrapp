@@ -1,0 +1,152 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: #fff5f8;
+    color: #444;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff1493;
+    padding: 20px 40px;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    font-size: 26px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 600;
+
+}
+
+nav a:hover {
+    color: #ffc2dd;
+}
+
+.banner {
+    background-color: #ff69b4;
+    background-image: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: white;
+    padding: 70px 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 32px; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-size: 32px;
+    text-align: center;
+    color: #ff1493;
+    margin: 50px 0 20px;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    padding: 20px;
+    border: 2px solid #ffb6d9;
+    background-color: white;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255,20,147,0.15);
+}
+
+.produto img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 15px 0 5px;
+    color: #ff1493;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+.botao {
+    display: inline-block;
+    background-color: #ff1493;
+    color: white;
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #d10a72;
+}
+.sobre, .contato {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.sobre p {
+    text-indent: 30px; 
+    font-size: 18px; /* Questão 2 */
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #ff1493;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.body {
+    padding: 30px;
+}
